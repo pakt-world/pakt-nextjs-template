@@ -12,7 +12,7 @@ import CryptoJS from "crypto-js";
 /* -------------------------------------------------------------------------- */
 /*                             Internal Dependency                            */
 /* -------------------------------------------------------------------------- */
-import { ENVS } from "@/core/config";
+import ENVS from "@/core/config";
 
 dayjs.extend(dayjsUtc);
 dayjs.extend(dayjsTimezone);
